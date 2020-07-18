@@ -93,6 +93,7 @@ Digital Signals can be connected to PB13/PB14/PB15. There's no protection on tho
 
 ## Building Open DSO-150 with PlatformIO
 Open folder in PlatformIO menu and hit the compile tick. Thats all ☺
+A precompiled binary can be downloaded from folder `firmware`.
 
 With an STLink V2 probe it is very easy to both program and debug the scope via the DebugWire Link.
 (I haven't tried uploading hex-files through the serial port with the STM32 Bootloader but there's no reason it shouldn't work...)
