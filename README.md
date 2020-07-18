@@ -1,6 +1,6 @@
 # Open DSO-150
 
-Fully open source firmware for JYETECH DSO-150
+Fully open source firmware for JYETECH DSO-150  
 https://jyetech.com/dso-150-shell-oscilloscope/
 
 ## Complete rewrite of DSO-150 Firmware
