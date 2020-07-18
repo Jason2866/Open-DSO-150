@@ -1,7 +1,7 @@
 # Open DSO-150
 
 Fully open source firmware for JYETECH DSO-150
-https://www.jyetech.com/Products/LcdScope/e150.php
+https://jyetech.com/dso-150-shell-oscilloscope/
 
 ## Complete rewrite of DSO-150 Firmware
 - Now using internal digital trigger through ADC IRQ (So trigger level can now be correlated to real voltage)
