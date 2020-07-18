@@ -4,8 +4,6 @@ Fully open source firmware for JYETECH DSO-150
 https://www.jyetech.com/Products/LcdScope/e150.php
 
 ## Complete rewrite of DSO-150 Firmware
-- No longer DSO-138 compatible (Sorry...)
-- Rewritten for Atollic trueSTUDIO (Yea... Real debugging)
 - Now using internal digital trigger through ADC IRQ (So trigger level can now be correlated to real voltage)
 - Lots of new features like voltage overlay, markers, auto cal
 
@@ -93,11 +91,8 @@ AutoCal data well be lost after restoring the default settings.
 ### Digital Signals
 Digital Signals can be connected to PB13/PB14/PB15. There's no protection on those ports so it better be max 3.3V logic level....
 
-## Building Open DSO-150
-Open DSO-150 should build directly after opening the project in the free STM32 version of Atollic trueSTUDIO.
-https://atollic.com/truestudio/
-
-It should also compile under the System Workbench for STM32 after creating a new project and importing the source files but I haven't tried that...
+## Building Open DSO-150 with PlatformIO
+Open folder in PlatformIO menu and hit the compile tick. Thats all ☺
 
 With an STLink V2 probe it is very easy to both program and debug the scope via the DebugWire Link.
 (I haven't tried uploading hex-files through the serial port with the STM32 Bootloader but there's no reason it shouldn't work...)
